@@ -1,4 +1,3 @@
-
 Log entry on: Sat Dec 10 2016 01:36:29 GMT-0500 (EST)
 Command: my-tweets
 Results:
@@ -31,3 +30,13 @@ Plot: When the newly crowned Queen Elsa accidentally uses her power to turn thin
 Actors: Kristen Bell, Idina Menzel, Jonathan Groff, Josh Gad
 Rotten Tomatoes Rating: 86
 Rotten Tomatoes URL: http://www.rottentomatoes.com/m/frozen_2013/
+
+Log entry on: Sat Dec 10 2016 11:55:24 GMT-0500 (EST)
+Command: my-tweets
+Results:
+ tweet: @Revdrum_ https://t.co/ddjJPUKlKb
+ on: Fri Dec 09 01:29:29 +0000 2016
+, tweet: First project assignment from my Bootcamp
+it's a Spotify/Youtube app
+https://t.co/6bsCLE0PXR
+ on: Fri Dec 09 01:24:47 +0000 2016
