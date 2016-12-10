@@ -1,0 +1,33 @@
+
+Log entry on: Sat Dec 10 2016 01:36:29 GMT-0500 (EST)
+Command: my-tweets
+Results:
+ tweet: @Revdrum_ https://t.co/ddjJPUKlKb
+ on: Fri Dec 09 01:29:29 +0000 2016
+, tweet: First project assignment from my Bootcamp
+it's a Spotify/Youtube app
+https://t.co/6bsCLE0PXR
+ on: Fri Dec 09 01:24:47 +0000 2016
+
+Log entry on: Sat Dec 10 2016 01:36:33 GMT-0500 (EST)
+Command: spotify-this-song
+Results:
+Spotify returned:
+---------------------
+Artist: Ace of Base, 
+Song: The Sign
+Album: The Sign (US Album) [Remastered]
+Preview link: https://p.scdn.co/mp3-preview/177e65fc2b8babeaf9266c0ad2a1cb1e18730ae4?cid=null
+
+Log entry on: Sat Dec 10 2016 01:36:39 GMT-0500 (EST)
+Command: movie-this
+Results:
+Title: Frozen
+Year: 2013
+IMDB Rating: 7.6
+Country: USA
+Language: English, Icelandic
+Plot: When the newly crowned Queen Elsa accidentally uses her power to turn things into ice to curse her home in infinite winter, her sister, Anna, teams up with a mountain man, his playful reindeer, and a snowman to change the weather condition.
+Actors: Kristen Bell, Idina Menzel, Jonathan Groff, Josh Gad
+Rotten Tomatoes Rating: 86
+Rotten Tomatoes URL: http://www.rottentomatoes.com/m/frozen_2013/
