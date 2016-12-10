@@ -5,6 +5,7 @@ const twitter = require('twitter');
 const spotify = require('spotify');
 const request = require('request');
 const keys = require('./js/keys.js');
+const logFile = require('./js/log.js');
 
 var command = process.argv[2];
 
@@ -94,12 +95,17 @@ function outPut(data, outputType) {
 
 		console.log("Your most recent tweets");
 
+		let tweetLog = [];
+
 		for (let i = 0; i < data.length; i++) {
 			let tweet = (` tweet: ${data[i].text}\n`+
 						 ` on: ${data[i].created_at}\n`);
 
+			tweetLog[i] = tweet;
+
 			console.log(tweet);
 		}
+			logFile.logFile(command, tweetLog);
 
 	} else if (outputType === 'track') {
 
@@ -118,6 +124,8 @@ function outPut(data, outputType) {
 
 		console.log(track);
 
+		logFile.logFile(command, track);
+
 	} else if (outputType === 'movie') {
 
 		let movie = (`Title: ${data.Title}\n` +
@@ -131,5 +139,7 @@ function outPut(data, outputType) {
 	    			`Rotten Tomatoes URL: ${data.tomatoURL}\n`);
 
 		console.log(movie);
+
+		logFile.logFile(command, movie);
 	}
 }
