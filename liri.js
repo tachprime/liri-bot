@@ -31,21 +31,16 @@ switch (command) {
 
 /*-------- functions --------*/
 function myTweets() {
-	let client = new twitter({
-	  consumer_key: keys.twitterKeys.consumer_key,
-	  consumer_secret: keys.twitterKeys.consumer_secret,
-	  access_token_key: keys.twitterKeys.access_token_key,
-	  access_token_secret: keys.twitterKeys.access_token_secret
-	});
+	let client = new twitter(keys.twitterKeys);
 
-	let params = {q:'@takimus', count:'5', result_type: 'recent'};
+	let params = {screen_name:'takimus', count:'20'};
 
-	client.get('search/tweets.json', params, function(err, tweets, response) {
+	client.get('statuses/user_timeline', params, function(err, tweets, response) {
 
 		if (err) return console.log(err);
 
-		if (tweets.statuses.length !== 0) {
-			outPut(tweets.statuses, 'tweets');
+		if (tweets.length !== 0) {
+			outPut(tweets, 'tweets');
 		} else {
 			console.log("no recent tweets");
 		}
