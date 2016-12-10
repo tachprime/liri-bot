@@ -37,7 +37,7 @@ function myTweets() {
 	  access_token_secret: keys.twitterKeys.access_token_secret
 	});
 
-	let params = {q:'@_PrincessCely', count:'5', result_type: 'recent'};
+	let params = {q:'@takimus', count:'5', result_type: 'recent'};
 
 	client.get('search/tweets.json', params, function(err, tweets, response) {
 
