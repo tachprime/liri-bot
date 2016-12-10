@@ -18,6 +18,7 @@ switch (command) {
 		break;
 
 	case 'movie-this':
+		movieThis();
 		break;
 
 	case 'do-what-it-says':
@@ -52,7 +53,26 @@ function myTweets() {
 	});
 }
 
+function movieThis() {
+	let movie = process.argv[3] || 'Mr. Nobody';
+	let query = `http://www.omdbapi.com/?t="${movie}"&y=&plot=short&tomatoes=true&r=json`;
+
+	console.log("searching for film...\n");
+
+	request(query, function (err, xhrResponse, film) {
+
+	  if (!err && xhrResponse.statusCode == 200) {
+		  film = JSON.parse(film);
+		  outPut(film, 'movie');
+	  } else {
+		  console.log("error with movie request");
+	  }
+
+	});
+}
+
 function spotifyThis() {
+
 	let track = process.argv[3] || 'ace of base The sign';
 
 	spotify.search({type: 'track', query: track}, function(err, data) {
@@ -66,6 +86,7 @@ function spotifyThis() {
 	});
 }
 
+//Formats data to be displayed in console
 function outPut(data, outputType) {
 
 	if (outputType === 'tweets') {
@@ -94,5 +115,19 @@ function outPut(data, outputType) {
 					 `Preview link: ${data.preview_url}\n`);
 
 		console.log(track);
+
+	} else if (outputType === 'movie') {
+
+		let movie = (`Title: ${data.Title}\n` +
+	    			`Year: ${data.Year}\n`+
+	    			`IMDB Rating: ${data.imdbRating}\n` +
+	    			`Country: ${data.Country}\n` +
+	    			`Language: ${data.Language}\n` +
+	    			`Plot: ${data.Plot}\n` +
+	    			`Actors: ${data.Actors}\n`+
+	    			`Rotten Tomatoes Rating: ${data.tomatoUserMeter}\n` +
+	    			`Rotten Tomatoes URL: ${data.tomatoURL}\n`);
+
+		console.log(movie);
 	}
 }
