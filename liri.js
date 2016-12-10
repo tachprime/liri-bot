@@ -54,6 +54,7 @@ function myTweets() {
 }
 
 function movieThis() {
+
 	let movie = process.argv[3] || 'Mr. Nobody';
 	let query = `http://www.omdbapi.com/?t="${movie}"&y=&plot=short&tomatoes=true&r=json`;
 
@@ -63,7 +64,12 @@ function movieThis() {
 
 	  if (!err && xhrResponse.statusCode == 200) {
 		  film = JSON.parse(film);
-		  outPut(film, 'movie');
+
+		  if (typeof film.Title !== 'undefined') {
+			  outPut(film, 'movie');
+		  } else {
+			  console.log("search returned no results\n");
+		  }
 	  } else {
 		  console.log("error with movie request");
 	  }
@@ -101,6 +107,7 @@ function outPut(data, outputType) {
 		}
 
 	} else if (outputType === 'track') {
+
 		let artist = '';
 
 		for (let i = 0; i < data.artists.length; i++) {
