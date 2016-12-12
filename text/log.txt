@@ -1,5 +1,4 @@
-
-Log entry on: Sat Dec 10 2016 01:36:29 GMT-0500 (EST)
+Log entry on: Sun Dec 11 2016 22:37:00 GMT-0500 (EST)
 Command: my-tweets
 Results:
  tweet: @Revdrum_ https://t.co/ddjJPUKlKb
@@ -9,17 +8,7 @@ it's a Spotify/Youtube app
 https://t.co/6bsCLE0PXR
  on: Fri Dec 09 01:24:47 +0000 2016
 
-Log entry on: Sat Dec 10 2016 01:36:33 GMT-0500 (EST)
-Command: spotify-this-song
-Results:
-Spotify returned:
----------------------
-Artist: Ace of Base, 
-Song: The Sign
-Album: The Sign (US Album) [Remastered]
-Preview link: https://p.scdn.co/mp3-preview/177e65fc2b8babeaf9266c0ad2a1cb1e18730ae4?cid=null
-
-Log entry on: Sat Dec 10 2016 01:36:39 GMT-0500 (EST)
+Log entry on: Sun Dec 11 2016 22:37:06 GMT-0500 (EST)
 Command: movie-this
 Results:
 Title: Frozen
@@ -31,3 +20,128 @@ Plot: When the newly crowned Queen Elsa accidentally uses her power to turn thin
 Actors: Kristen Bell, Idina Menzel, Jonathan Groff, Josh Gad
 Rotten Tomatoes Rating: 86
 Rotten Tomatoes URL: http://www.rottentomatoes.com/m/frozen_2013/
+
+Log entry on: Sun Dec 11 2016 22:37:18 GMT-0500 (EST)
+Command: spotify-this-song
+Results:
+Spotify returned:
+---------------------
+Artist: The Black Eyed Peas, 
+Song: Where Is The Love?
+Album: Elephunk
+Preview link: https://p.scdn.co/mp3-preview/0b5ac3a053a70852d07679cf95a9694356293349?cid=null
+
+Log entry on: Sun Dec 11 2016 22:37:38 GMT-0500 (EST)
+Command: spotify-this-song
+Results:
+Spotify returned:
+---------------------
+Artist: Ace of Base, 
+Song: The Sign
+Album: The Sign (US Album) [Remastered]
+Preview link: https://p.scdn.co/mp3-preview/177e65fc2b8babeaf9266c0ad2a1cb1e18730ae4?cid=null
+
+Log entry on: Sun Dec 11 2016 22:37:49 GMT-0500 (EST)
+Command: movie-this
+Results:
+Title: Mr. Nobody
+Year: 2009
+IMDB Rating: 7.9
+Country: Belgium, Germany, Canada, France
+Language: English, Mohawk
+Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
+Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
+Rotten Tomatoes Rating: 76
+Rotten Tomatoes URL: http://www.rottentomatoes.com/m/mr-nobody/
+
+Log entry on: Sun Dec 11 2016 22:43:21 GMT-0500 (EST)
+Command: original command: do-what-it-says random command: spotify-this-song "I Want it That Way"
+Results:
+see next log
+Log entry on: Sun Dec 11 2016 22:43:22 GMT-0500 (EST)
+Command: spotify-this-song
+Results:
+Spotify returned:
+---------------------
+Artist: Backstreet Boys, 
+Song: I Want It That Way
+Album: The Hits--Chapter One
+Preview link: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=null
+
+Log entry on: Sun Dec 11 2016 22:44:03 GMT-0500 (EST)
+Command: movie-this
+Results:
+Title: Mr. Nobody
+Year: 2009
+IMDB Rating: 7.9
+Country: Belgium, Germany, Canada, France
+Language: English, Mohawk
+Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
+Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
+Rotten Tomatoes Rating: 76
+Rotten Tomatoes URL: http://www.rottentomatoes.com/m/mr-nobody/
+
+Log entry on: Sun Dec 11 2016 22:44:07 GMT-0500 (EST)
+Command: original command: do-what-it-says random command: spotify-this-song "I Want it That Way"
+Results:
+see next log
+Log entry on: Sun Dec 11 2016 22:44:07 GMT-0500 (EST)
+Command: spotify-this-song
+Results:
+Spotify returned:
+---------------------
+Artist: Backstreet Boys, 
+Song: I Want It That Way
+Album: The Hits--Chapter One
+Preview link: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=null
+
+Log entry on: Sun Dec 11 2016 22:44:30 GMT-0500 (EST)
+Command: original command: do-what-it-says random command: spotify-this-song "I Want it That Way"
+Results:
+see next log
+Log entry on: Sun Dec 11 2016 22:44:31 GMT-0500 (EST)
+Command: spotify-this-song
+Results:
+Spotify returned:
+---------------------
+Artist: Backstreet Boys, 
+Song: I Want It That Way
+Album: The Hits--Chapter One
+Preview link: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=null
+
+Log entry on: Sun Dec 11 2016 22:45:07 GMT-0500 (EST)
+Command: movie-this
+Results:
+Title: Mr. Nobody
+Year: 2009
+IMDB Rating: 7.9
+Country: Belgium, Germany, Canada, France
+Language: English, Mohawk
+Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
+Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
+Rotten Tomatoes Rating: 76
+Rotten Tomatoes URL: http://www.rottentomatoes.com/m/mr-nobody/
+
+Log entry on: Sun Dec 11 2016 22:45:13 GMT-0500 (EST)
+Command: original command: do-what-it-says random command: spotify-this-song "I Want it That Way"
+Results:
+see next log
+Log entry on: Sun Dec 11 2016 22:45:13 GMT-0500 (EST)
+Command: spotify-this-song
+Results:
+Spotify returned:
+---------------------
+Artist: Backstreet Boys, 
+Song: I Want It That Way
+Album: The Hits--Chapter One
+Preview link: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=null
+
+Log entry on: Sun Dec 11 2016 22:45:32 GMT-0500 (EST)
+Command: spotify-this-song
+Results:
+Spotify returned:
+---------------------
+Artist: Ace of Base, 
+Song: The Sign
+Album: The Sign (US Album) [Remastered]
+Preview link: https://p.scdn.co/mp3-preview/177e65fc2b8babeaf9266c0ad2a1cb1e18730ae4?cid=null

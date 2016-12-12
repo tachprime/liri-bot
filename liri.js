@@ -5,30 +5,38 @@ const twitter = require('twitter');
 const spotify = require('spotify');
 const request = require('request');
 const keys = require('./js/keys.js');
+const fs = require('fs');
 const logFile = require('./js/log.js');
 
 var command = process.argv[2];
 
-switch (command) {
-	case 'my-tweets':
-		myTweets();
-		break;
+function main(command2) {
+	switch (command) {
+		case 'my-tweets':
+			myTweets();
+			break;
 
-	case 'spotify-this-song':
-		spotifyThis();
-		break;
+		case 'spotify-this-song':
+			if(!command2)
+			command2 = process.argv[3] || 'ace of base The sign';
+			spotifyThis(command2);
+			break;
 
-	case 'movie-this':
-		movieThis();
-		break;
+		case 'movie-this':
+			if(!command2)
+			command2 = process.argv[3] || 'Mr. Nobody';
+			movieThis(command2);
+			break;
 
-	case 'do-what-it-says':
-		break;
+		case 'do-what-it-says':
+			doThis();
+			break;
 
-	default:
-		console.log("not a recognized command");
-		break;
-}
+		default:
+			console.log("not a recognized command");
+			break;
+	}
+}main();
 
 /*-------- functions --------*/
 function myTweets() {
@@ -49,9 +57,8 @@ function myTweets() {
 	});
 }
 
-function movieThis() {
+function movieThis(movie) {
 
-	let movie = process.argv[3] || 'Mr. Nobody';
 	let query = `http://www.omdbapi.com/?t="${movie}"&y=&plot=short&tomatoes=true&r=json`;
 
 	console.log("searching for film...\n");
@@ -73,9 +80,7 @@ function movieThis() {
 	});
 }
 
-function spotifyThis() {
-
-	let track = process.argv[3] || 'ace of base The sign';
+function spotifyThis(track) {
 
 	spotify.search({type: 'track', query: track}, function(err, data) {
 		if (err) return console.log(err);
@@ -85,6 +90,23 @@ function spotifyThis() {
 		} else {
 			console.log("track not found");
 		}
+	});
+}
+
+function doThis() {
+	fs.readFile('./text/random.txt', 'utf8', (err, data) => {
+		if (err) return err;
+
+		let originalCMD = command;
+		let input;
+
+		data = data.trim();
+		command = data.split(',')[0];
+		input = data.split(',')[1];
+
+		logFile.logFile(originalCMD + " random command: " + command + " " + input, "see next log");
+
+		main(input);
 	});
 }
 
