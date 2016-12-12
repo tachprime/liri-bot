@@ -86,8 +86,7 @@ function doThis() {
 	fs.readFile('./text/random.txt', 'utf8', (err, data) => {
 		if (err) return err;
 
-		let originalCMD = command,
-			input;
+		let input;
 
 		data = data.trim();
 		command = data.split(',')[0];
