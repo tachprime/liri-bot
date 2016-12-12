@@ -32,7 +32,6 @@ function main(input) {
 }main();
 
 function myTweets() {
-
 	let client = new twitter(keys.twitterKeys);
 	let params = {screen_name:'takimus', count:'20'};
 
@@ -44,7 +43,6 @@ function myTweets() {
 }
 
 function movieThis(movie) {
-
 	if(!movie)
 	movie = process.argv[3] || 'Mr. Nobody';
 
