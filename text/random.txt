@@ -1,1 +1,5 @@
 spotify-this-song,"I Want it That Way"
+spotify-this-song,"Viva Las Vegas"
+spotify-this-song,"Danza kuduro"
+movie-this,"The Iron Giant"
+movie-this,"James and the giant peach"

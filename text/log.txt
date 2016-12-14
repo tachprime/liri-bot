@@ -64,3 +64,79 @@ on: Fri Dec 09 01:29:29 +0000 2016
 it's a Spotify/Youtube app
 https://t.co/6bsCLE0PXR
 on: Fri Dec 09 01:24:47 +0000 2016
+
+Log entry on: Wed Dec 14 2016 17:08:43 GMT-0500 (EST)
+Command: spotify-this-song
+Results:
+Spotify returned:
+---------------------
+Artist: Elvis Presley, 
+Song: Viva Las Vegas
+Album: Elvis' Gold Records, Vol. 4
+Preview link: https://p.scdn.co/mp3-preview/9ddef98d8e5343974805631b5decb7235c412b3a?cid=null
+
+Log entry on: Wed Dec 14 2016 17:08:55 GMT-0500 (EST)
+Command: spotify-this-song
+Results:
+Spotify returned:
+---------------------
+Artist: Backstreet Boys, 
+Song: I Want It That Way
+Album: The Hits--Chapter One
+Preview link: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=null
+
+Log entry on: Wed Dec 14 2016 17:09:11 GMT-0500 (EST)
+Command: spotify-this-song
+Results:
+Spotify returned:
+---------------------
+Artist: Elvis Presley, 
+Song: Viva Las Vegas
+Album: Elvis' Gold Records, Vol. 4
+Preview link: https://p.scdn.co/mp3-preview/9ddef98d8e5343974805631b5decb7235c412b3a?cid=null
+
+Log entry on: Wed Dec 14 2016 17:09:14 GMT-0500 (EST)
+Command: spotify-this-song
+Results:
+Spotify returned:
+---------------------
+Artist: Backstreet Boys, 
+Song: I Want It That Way
+Album: The Hits--Chapter One
+Preview link: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=null
+
+Log entry on: Wed Dec 14 2016 17:09:16 GMT-0500 (EST)
+Command: movie-this
+Results:
+Title: James and the Giant Peach
+Year: 1996
+IMDB Rating: 6.7
+Country: UK, USA
+Language: English
+Plot: An orphan, who lives with his two cruel aunts, befriends anthropomorphic bugs who live inside a giant peach, and they embark on a journey to New York City.
+Actors: Simon Callow, Richard Dreyfuss, Jane Leeves, Joanna Lumley
+Rotten Tomatoes Rating: 65
+Rotten Tomatoes URL: http://www.rottentomatoes.com/m/james_and_the_giant_peach/
+
+Log entry on: Wed Dec 14 2016 17:09:20 GMT-0500 (EST)
+Command: spotify-this-song
+Results:
+Spotify returned:
+---------------------
+Artist: Backstreet Boys, 
+Song: I Want It That Way
+Album: The Hits--Chapter One
+Preview link: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=null
+
+Log entry on: Wed Dec 14 2016 17:09:23 GMT-0500 (EST)
+Command: movie-this
+Results:
+Title: The Iron Giant
+Year: 1999
+IMDB Rating: 8.0
+Country: USA
+Language: English
+Plot: A young boy befriends a giant robot from outer space that a paranoid government agent wants to destroy.
+Actors: Jennifer Aniston, Harry Connick Jr., Vin Diesel, James Gammon
+Rotten Tomatoes Rating: 89
+Rotten Tomatoes URL: http://www.rottentomatoes.com/m/iron_giant/
