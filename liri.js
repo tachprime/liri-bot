@@ -86,11 +86,14 @@ function doThis() {
 	fs.readFile('./text/random.txt', 'utf8', (err, data) => {
 		if (err) return err;
 
-		let input;
+		let input,
+			randomCommand;
 
 		data = data.trim();
-		command = data.split(',')[0];
-		input = data.split(',')[1];
+		data = data.split('\n');
+		randomCommand = Math.floor(Math.random() * data.length);
+		command = data[randomCommand].split(',')[0];
+		input = data[randomCommand].split(',')[1];
 
 		main(input);
 	});
