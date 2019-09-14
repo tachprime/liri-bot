@@ -6,7 +6,7 @@ const fs = require('fs');
 const logFile = require('./js/log.js');
 
 var command = process.argv[2];
-
+console.log("hello new liri");
 function main(input) {
 	switch (command) {
 		case 'my-tweets':
